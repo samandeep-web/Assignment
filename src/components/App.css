@@ -1,0 +1,76 @@
+.container {
+  background-image: url(https://www.ctvnews.ca/polopoly_fs/1.4612627.1570053058!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg);
+  width: 100%;
+  margin: 0 auto;
+
+  /* Small Devices, Mobiles */
+  @media only screen and (min-width: 320px) {
+    width: 70%;
+    background-color: green;
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    width: 75%;
+    background-color: green;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    width: 70%;
+    background-color: pink;
+  }
+}
+
+p {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+}
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: rgb(201, 192, 192);
+}
+
+input[type='range']::-ms-track {
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 0px solid #f8f5f5;
+  height: 25px;
+  width: 10px;
+  background: #5a5555;
+  cursor: pointer;
+  margin-top: -14px;
+  box-shadow: 1px 1px 1px #fcfafa, 0px 0px 1px #ebe9e9;
+}
+
+.graph-container {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+
+  /* Small Devices, Mobiles */
+  @media only screen and (min-width: 320px) {
+    width: 80%;
+    background-color: green;
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    width: 75%;
+    background-color: green;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    width: 70%;
+    background-color: pink;
+  }
+}
